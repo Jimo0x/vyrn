@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vyrn"
+version = "0.1.0"
+description = "Vyrn : la syntaxe de Python, la vitesse du C."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Jimo0x" }]
+
+[project.scripts]
+vyrn = "vyrn.cli:main"
+
+[tool.setuptools]
+packages = ["vyrn"]

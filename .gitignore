@@ -1,0 +1,7 @@
+__pycache__/
+*.egg-info/
+build/
+dist/
+*.exe
+examples/*
+!examples/*.vy
